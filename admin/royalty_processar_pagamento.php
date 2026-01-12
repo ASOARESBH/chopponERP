@@ -21,7 +21,7 @@ $royaltiesManager = new RoyaltiesManager($conn);
 $royalty_id = (int)($_GET['id'] ?? 0);
 $metodo = $_GET['metodo'] ?? '';
 
-if (!$royalty_id || !in_array($metodo, ['stripe', 'cora', 'mercadopago'])) {
+if (!$royalty_id || !in_array($metodo, ['stripe', 'cora', 'mercadopago', 'asaas'])) {
     header('Location: financeiro_royalties.php?error=parametros_invalidos');
     exit;
 }
@@ -69,6 +69,10 @@ try {
             
         case 'mercadopago':
             processarMercadoPago($conn, $royalty, $estabelecimento_id);
+            break;
+            
+        case 'asaas':
+            processarAsaas($conn, $royalty, $estabelecimento_id);
             break;
     }
     
@@ -191,6 +195,97 @@ function processarCora($conn, $royalty, $estabelecimento_id) {
     
     // Redirecionar para visualizar boleto
     header('Location: ' . $boleto['pdf_url']);
+    exit;
+}
+
+/**
+ * Processar pagamento via Asaas
+ */
+function processarAsaas($conn, $royalty, $estabelecimento_id) {
+    // Buscar configuração Asaas
+    $stmt = $conn->prepare("SELECT * FROM asaas_config WHERE estabelecimento_id = ? AND ativo = 1");
+    $stmt->execute([$estabelecimento_id]);
+    $config = $stmt->fetch();
+    
+    if (!$config) {
+        throw new Exception('Configuração Asaas não encontrada ou inativa');
+    }
+    
+    require_once '../includes/AsaasAPI.php';
+    
+    $asaas = new AsaasAPI($conn, $estabelecimento_id);
+    
+    // Buscar ou criar cliente no Asaas
+    // Quando royalty é criado, o cliente é o estabelecimento
+    $stmt = $conn->prepare("
+        SELECT id, name, cnpj, email, telefone, celular, 
+               endereco, numero, complemento, bairro, cep, cidade, estado
+        FROM estabelecimentos 
+        WHERE id = ?
+    ");
+    $stmt->execute([$estabelecimento_id]);
+    $estabelecimento = $stmt->fetch();
+    
+    if (!$estabelecimento) {
+        throw new Exception('Estabelecimento não encontrado');
+    }
+    
+    // Preparar dados do cliente
+    $dados_cliente = [
+        'cliente_id' => $estabelecimento_id, // Usar ID do estabelecimento como cliente_id
+        'nome' => $estabelecimento['name'],
+        'cpf_cnpj' => preg_replace('/[^0-9]/', '', $estabelecimento['cnpj'] ?? ''),
+        'email' => $estabelecimento['email'] ?? null,
+        'telefone' => $estabelecimento['telefone'] ?? null,
+        'celular' => $estabelecimento['celular'] ?? null,
+        'endereco' => $estabelecimento['endereco'] ?? null,
+        'numero' => $estabelecimento['numero'] ?? null,
+        'complemento' => $estabelecimento['complemento'] ?? null,
+        'bairro' => $estabelecimento['bairro'] ?? null,
+        'cep' => preg_replace('/[^0-9]/', '', $estabelecimento['cep'] ?? ''),
+        'referencia_externa' => 'ESTABELECIMENTO_' . $estabelecimento_id
+    ];
+    
+    // Buscar ou criar cliente
+    $customer_id = $asaas->buscarOuCriarCliente($estabelecimento_id, $dados_cliente);
+    
+    // Criar cobrança
+    $cobranca = $asaas->criarCobranca([
+        'customer_id' => $customer_id,
+        'tipo_cobranca' => 'UNDEFINED', // Cliente escolhe entre Boleto, PIX ou Cartão
+        'valor' => $royalty['valor_royalties'],
+        'data_vencimento' => date('Y-m-d', strtotime('+7 days')),
+        'descricao' => "Royalty - Período: " . date('d/m/Y', strtotime($royalty['periodo_inicial'])) . " a " . date('d/m/Y', strtotime($royalty['periodo_final'])),
+        'referencia_externa' => 'ROYALTY_' . $royalty['id']
+    ]);
+    
+    // Atualizar royalty
+    $stmt = $conn->prepare("
+        UPDATE royalties 
+        SET metodo_pagamento = 'asaas', 
+            payment_id = ?, 
+            payment_url = ?,
+            payment_status = 'pendente',
+            payment_data = ?
+        WHERE id = ?
+    ");
+    $stmt->execute([
+        $cobranca['id'],
+        $cobranca['invoiceUrl'],
+        json_encode($cobranca),
+        $royalty['id']
+    ]);
+    
+    // Atualizar tabela asaas_pagamentos com conta_receber_id
+    $stmt = $conn->prepare("
+        UPDATE asaas_pagamentos 
+        SET conta_receber_id = ?
+        WHERE asaas_payment_id = ?
+    ");
+    $stmt->execute([$royalty['id'], $cobranca['id']]);
+    
+    // Redirecionar para fatura do Asaas
+    header('Location: ' . $cobranca['invoiceUrl']);
     exit;
 }
 

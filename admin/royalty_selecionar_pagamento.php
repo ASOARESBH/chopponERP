@@ -58,6 +58,11 @@ $stmt = $conn->prepare("SELECT * FROM mercadopago_config WHERE estabelecimento_i
 $stmt->execute([':estabelecimento_id' => $estabelecimento_id]);
 $mercadopago_disponivel = $stmt->rowCount() > 0;
 
+// Verificar Asaas (PDO)
+$stmt = $conn->prepare("SELECT * FROM asaas_config WHERE estabelecimento_id = :estabelecimento_id AND ativo = 1");
+$stmt->execute([':estabelecimento_id' => $estabelecimento_id]);
+$asaas_disponivel = $stmt->rowCount() > 0;
+
 require_once '../includes/header.php';
 ?>
 
@@ -97,10 +102,10 @@ require_once '../includes/header.php';
                     <h3 class="card-title">Escolha o Método de Pagamento</h3>
                 </div>
                 <div class="card-body">
-                    <?php if (!$stripe_disponivel && !$cora_disponivel && !$mercadopago_disponivel): ?>
+                    <?php if (!$stripe_disponivel && !$cora_disponivel && !$mercadopago_disponivel && !$asaas_disponivel): ?>
                         <div class="alert alert-warning">
                             <i class="fas fa-exclamation-triangle"></i> Nenhum método de pagamento configurado para este estabelecimento.
-                            <br>Entre em contato com o administrador para configurar Stripe, Cora ou Mercado Pago.
+                            <br>Entre em contato com o administrador para configurar Stripe, Cora, Mercado Pago ou Asaas.
                         </div>
                     <?php else: ?>
                         <div class="row">
@@ -143,6 +148,21 @@ require_once '../includes/header.php';
                                         <p class="text-muted">Cartão, PIX ou Boleto</p>
                                         <button type="button" class="btn btn-info btn-block">
                                             <i class="fas fa-arrow-right"></i> Pagar com Mercado Pago
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php endif; ?>
+
+                            <?php if ($asaas_disponivel): ?>
+                            <div class="col-md-4 mb-3">
+                                <div class="card payment-method-card" onclick="selecionarMetodo('asaas')">
+                                    <div class="card-body text-center">
+                                        <i class="fas fa-dollar-sign fa-4x text-warning mb-3"></i>
+                                        <h4>Asaas</h4>
+                                        <p class="text-muted">Cartão, PIX ou Boleto</p>
+                                        <button type="button" class="btn btn-warning btn-block">
+                                            <i class="fas fa-arrow-right"></i> Pagar com Asaas
                                         </button>
                                     </div>
                                 </div>
