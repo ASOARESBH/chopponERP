@@ -1,0 +1,3 @@
+[2026-01-07 22:49:26] [INFO] [User: 1] [IP: 200.229.247.53] Inicializando StripeAPI | Context: {"estabelecimento_id":1}
+[2026-01-07 22:49:26] [WARNING] [User: 1] [IP: 200.229.247.53] Tabela stripe_config não encontrada, usando fallback | Context: {"error":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stripe_webhook_secret' in 'field list'"}
+[2026-01-07 22:49:26] [ERROR] [User: 1] [IP: 200.229.247.53] Secret key do Stripe não configurada

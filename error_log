@@ -1,0 +1,15 @@
+[26-Nov-2025 14:33:51 America/Fortaleza] PHP Warning:  require_once(/home2/inlaud99/ochoppoficial.com.br/../includes/config.php): Failed to open stream: No such file or directory in /home2/inlaud99/ochoppoficial.com.br/testar_notificacao_manual.php on line 9
+[26-Nov-2025 14:33:51 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/inlaud99/ochoppoficial.com.br/../includes/config.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home2/inlaud99/ochoppoficial.com.br/testar_notificacao_manual.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/inlaud99/ochoppoficial.com.br/testar_notificacao_manual.php on line 9
+[26-Nov-2025 14:35:24 America/Fortaleza] PHP Warning:  require_once(/home2/inlaud99/ochoppoficial.com.br/../includes/config.php): Failed to open stream: No such file or directory in /home2/inlaud99/ochoppoficial.com.br/testar_notificacao_manual.php on line 9
+[26-Nov-2025 14:35:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/inlaud99/ochoppoficial.com.br/../includes/config.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home2/inlaud99/ochoppoficial.com.br/testar_notificacao_manual.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/inlaud99/ochoppoficial.com.br/testar_notificacao_manual.php on line 9
+[11-Jan-2026 23:40:36 America/Fortaleza] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in /home2/inlaud99/ochoppoficial.com.br/clientes.php on line 5
+[11-Jan-2026 23:40:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home2/inlaud99/ochoppoficial.com.br/clientes.php:5
+Stack trace:
+#0 {main}
+  thrown in /home2/inlaud99/ochoppoficial.com.br/clientes.php on line 5

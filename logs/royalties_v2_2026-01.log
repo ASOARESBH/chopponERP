@@ -1,0 +1,18 @@
+[2026-01-05 11:43:47] [INFO] [User: 3] [IP: 200.229.247.110] RoyaltiesManagerV2 inicializado
+[2026-01-05 11:43:47] [ERROR] [User: 3] [IP: 200.229.247.110] Erro ao listar faturamentos | Context: {"error":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inlaud99_choppontap.faturamentos' doesn't exist"}
+[2026-01-05 11:43:49] [INFO] [User: 3] [IP: 200.229.247.110] RoyaltiesManagerV2 inicializado
+[2026-01-05 11:43:49] [ERROR] [User: 3] [IP: 200.229.247.110] Erro ao listar faturamentos | Context: {"error":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inlaud99_choppontap.faturamentos' doesn't exist"}
+[2026-01-05 17:44:35] [INFO] [User: 2] [IP: 177.129.191.12] RoyaltiesManagerV2 inicializado
+[2026-01-05 17:44:35] [ERROR] [User: 2] [IP: 177.129.191.12] Erro ao listar faturamentos | Context: {"error":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inlaud99_choppontap.faturamentos' doesn't exist"}
+[2026-01-07 17:57:56] [INFO] [User: 1] [IP: 200.229.247.53] RoyaltiesManagerV2 inicializado
+[2026-01-07 17:57:56] [ERROR] [User: 1] [IP: 200.229.247.53] Erro ao listar faturamentos | Context: {"error":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inlaud99_choppontap.faturamentos' doesn't exist"}
+[2026-01-07 17:57:58] [INFO] [User: 1] [IP: 200.229.247.53] RoyaltiesManagerV2 inicializado
+[2026-01-07 17:57:58] [ERROR] [User: 1] [IP: 200.229.247.53] Erro ao listar faturamentos | Context: {"error":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inlaud99_choppontap.faturamentos' doesn't exist"}
+[2026-01-11 23:43:02] [INFO] [User: 1] [IP: 200.229.247.53] RoyaltiesManagerV2 inicializado
+[2026-01-11 23:43:02] [ERROR] [User: 1] [IP: 200.229.247.53] Erro ao listar faturamentos | Context: {"error":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inlaud99_choppontap.faturamentos' doesn't exist"}
+[2026-01-12 00:18:11] [INFO] [User: 3] [IP: 200.229.247.53] RoyaltiesManagerV2 inicializado
+[2026-01-12 00:18:11] [ERROR] [User: 3] [IP: 200.229.247.53] Erro ao listar faturamentos | Context: {"error":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inlaud99_choppontap.faturamentos' doesn't exist"}
+[2026-01-12 00:18:15] [INFO] [User: 3] [IP: 200.229.247.53] RoyaltiesManagerV2 inicializado
+[2026-01-12 00:18:15] [ERROR] [User: 3] [IP: 200.229.247.53] Erro ao listar faturamentos | Context: {"error":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inlaud99_choppontap.faturamentos' doesn't exist"}
+[2026-01-12 00:18:23] [INFO] [User: 3] [IP: 200.229.247.53] RoyaltiesManagerV2 inicializado
+[2026-01-12 00:18:23] [ERROR] [User: 3] [IP: 200.229.247.53] Erro ao listar faturamentos | Context: {"error":"SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inlaud99_choppontap.faturamentos' doesn't exist"}

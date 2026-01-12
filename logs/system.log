@@ -1,0 +1,5 @@
+[2025-12-14 13:22:33] [INFO] [IP:191.56.242.11] [GET /admin/logs.php?log=auth.log&clear=1] Log limpo pelo administrador | Context: {"log_file":"auth.log","user_id":1}
+[2025-12-14 13:22:59] [INFO] [IP:191.56.242.11] [GET /admin/logs.php?log=debug.log&clear=1] Log limpo pelo administrador | Context: {"log_file":"debug.log","user_id":1}
+[2026-01-01 23:01:32] [INFO] [IP:200.229.247.55] [POST /admin/clientes.php] Cliente criado | Context: {"cliente_nome":"ANDRE SOARES E SILVA","cpf":"08921646620","estabelecimento_id":"1"}
+[2026-01-06 22:32:52] [INFO] [IP:201.148.113.182] [POST /api/webhook.php] Webhook processado | Context: {"checkout_id":"ed981ed2-c221-4c2a-bada-df9e58fde707","status":"SUCCESSFUL","transaction_id":"ed981ed2-c221-4c2a-bada-df9e58fde707"}
+[2026-01-06 22:34:04] [INFO] [IP:34.251.131.218] [POST /api/webhook.php] Webhook processado | Context: {"checkout_id":"b2defb51-c092-493c-b6bd-2d7203fdb823","status":"SUCCESSFUL","transaction_id":"45b4bf89-bc0a-4a6e-821e-117c03df68d9"}

@@ -1,0 +1,234 @@
+[2025-11-26 00:26:12] [SECURITY] [IP:200.229.247.77] [POST /teste/index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-11-26 00:26:13] [SECURITY] [IP:200.229.247.77] [POST /teste/index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-11-26 00:27:15] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-11-26 00:27:15] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-11-26 01:22:09] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-11-26 01:22:10] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-11-26 01:28:49] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-11-26 01:28:49] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-11-26 12:41:04] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-11-26 12:41:05] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-11-27 00:25:51] [SECURITY] [IP:201.17.208.214] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-11-27 00:25:52] [SECURITY] [IP:201.17.208.214] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-11-27 16:52:23] [SECURITY] [IP:179.125.96.251] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-11-27 16:52:23] [SECURITY] [IP:179.125.96.251] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-11-30 10:26:18] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-11-30 10:26:19] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-11-30 23:50:21] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-11-30 23:50:21] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-01 08:40:18] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-01 08:40:18] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-01 18:35:16] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-01 18:35:16] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-01 21:18:00] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-01 21:18:00] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-02 13:34:23] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-02 13:34:24] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-03 08:52:49] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-03 08:52:49] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-03 10:55:01] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-03 10:55:01] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-03 11:11:05] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2025-12-03 11:11:05] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larrisarodrigues7@hotmail.com","type":2}
+[2025-12-04 08:42:43] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-04 08:42:44] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-04 10:18:46] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-04 10:18:46] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-04 11:46:11] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-04 11:46:11] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-04 14:27:20] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-04 14:27:21] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-04 15:18:23] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-04 15:18:23] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-04 16:07:14] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2025-12-04 16:07:15] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larrisarodrigues7@hotmail.com","type":2}
+[2025-12-04 19:12:53] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-04 19:12:53] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-17 21:44:50] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-17 21:44:50] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-17 22:37:58] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-17 22:37:58] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login falhou: Senha incorreta | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-17 22:38:04] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-17 22:38:05] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-18 07:20:34] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-18 07:20:34] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-18 08:21:07] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-18 08:21:07] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-18 08:29:20] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-18 08:29:21] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-18 10:06:28] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-18 10:06:28] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-18 10:47:25] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-18 10:47:26] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-18 12:05:29] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-18 12:05:29] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-18 12:06:35] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-18 12:06:35] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-18 12:07:19] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2025-12-18 12:07:20] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larrisarodrigues7@hotmail.com","type":2}
+[2025-12-18 12:07:44] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2025-12-18 12:07:44] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larrisarodrigues7@hotmail.com","type":2}
+[2025-12-18 13:47:32] [SECURITY] [IP:200.229.247.77] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-18 13:47:33] [SECURITY] [IP:200.229.247.77] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-21 16:12:46] [SECURITY] [IP:139.59.133.87] [POST /] Tentativa de login | Context: {"email":""}
+[2025-12-21 16:12:46] [SECURITY] [IP:139.59.133.87] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2025-12-21 16:12:46] [SECURITY] [IP:139.59.133.87] [POST /] Tentativa de login | Context: {"email":""}
+[2025-12-21 16:12:46] [SECURITY] [IP:139.59.133.87] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2025-12-21 20:52:29] [SECURITY] [IP:207.154.244.234] [POST /] Tentativa de login | Context: {"email":""}
+[2025-12-21 20:52:29] [SECURITY] [IP:207.154.244.234] [POST /] Tentativa de login | Context: {"email":""}
+[2025-12-21 20:52:29] [SECURITY] [IP:207.154.244.234] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2025-12-21 20:52:29] [SECURITY] [IP:207.154.244.234] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2025-12-22 21:22:15] [SECURITY] [IP:200.229.247.50] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-22 21:22:16] [SECURITY] [IP:200.229.247.50] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-23 07:29:12] [SECURITY] [IP:200.229.247.50] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-23 07:29:12] [SECURITY] [IP:200.229.247.50] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-26 18:41:53] [SECURITY] [IP:200.229.247.50] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-26 18:41:53] [SECURITY] [IP:200.229.247.50] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-26 20:26:30] [SECURITY] [IP:200.229.247.50] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-26 20:26:31] [SECURITY] [IP:200.229.247.50] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-28 23:11:52] [SECURITY] [IP:200.229.247.55] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2025-12-28 23:11:52] [SECURITY] [IP:200.229.247.55] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2025-12-28 23:17:59] [SECURITY] [IP:200.229.247.55] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2025-12-28 23:17:59] [SECURITY] [IP:200.229.247.55] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larrisarodrigues7@hotmail.com","type":2}
+[2026-01-01 22:35:44] [SECURITY] [IP:200.229.247.55] [POST /index.php] Tentativa de login | Context: {"email":"financeiro@choppon.com.br"}
+[2026-01-01 22:35:44] [SECURITY] [IP:200.229.247.55] [POST /index.php] Login falhou: Usuário não encontrado | Context: {"email":"financeiro@choppon.com.br"}
+[2026-01-01 22:35:55] [SECURITY] [IP:200.229.247.55] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-01 22:35:55] [SECURITY] [IP:200.229.247.55] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-02 15:44:19] [SECURITY] [IP:200.229.247.55] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-02 15:44:19] [SECURITY] [IP:200.229.247.55] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-02 22:47:17] [SECURITY] [IP:200.229.247.55] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-02 22:47:17] [SECURITY] [IP:200.229.247.55] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-03 10:09:13] [SECURITY] [IP:200.229.247.106] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-03 10:09:14] [SECURITY] [IP:200.229.247.106] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-04 21:42:23] [SECURITY] [IP:201.148.113.182] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-04 21:42:24] [SECURITY] [IP:201.148.113.182] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-04 22:25:36] [SECURITY] [IP:201.148.113.182] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-04 22:25:36] [SECURITY] [IP:201.148.113.182] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-05 11:27:48] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2026-01-05 11:27:48] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larrisarodrigues7@hotmail.com","type":2}
+[2026-01-05 11:28:07] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-05 11:28:08] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-05 11:29:59] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2026-01-05 11:29:59] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larrisarodrigues7@hotmail.com","type":2}
+[2026-01-05 11:30:43] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-05 11:30:43] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-05 11:31:27] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2026-01-05 11:31:27] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larrisarodrigues7@hotmail.com","type":2}
+[2026-01-05 11:35:58] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-05 11:35:59] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-05 11:38:46] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-05 11:38:47] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login falhou: Senha incorreta | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-05 11:38:55] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-05 11:38:55] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login falhou: Senha incorreta | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-05 11:39:37] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-05 11:39:37] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login bem-sucedido | Context: {"user_id":3,"email":"asoaresbh@gmail.com","type":2}
+[2026-01-05 14:57:25] [SECURITY] [IP:177.129.191.12] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-05 14:57:25] [SECURITY] [IP:177.129.191.12] [POST /index.php] Login falhou: Usuário não encontrado | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-05 14:58:03] [SECURITY] [IP:177.129.191.12] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-05 14:58:03] [SECURITY] [IP:177.129.191.12] [POST /index.php] Login falhou: Usuário não encontrado | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-05 15:00:05] [SECURITY] [IP:177.129.191.12] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2026-01-05 15:00:05] [SECURITY] [IP:177.129.191.12] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larrisarodrigues7@hotmail.com","type":2}
+[2026-01-05 16:15:48] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-05 16:15:48] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-05 16:19:48] [SECURITY] [IP:200.229.247.110] [POST /index.php] Tentativa de login | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-05 16:19:48] [SECURITY] [IP:200.229.247.110] [POST /index.php] Login bem-sucedido | Context: {"user_id":3,"email":"asoaresbh@gmail.com","type":2}
+[2026-01-05 17:37:35] [SECURITY] [IP:177.129.191.12] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-05 17:37:35] [SECURITY] [IP:177.129.191.12] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-06 06:17:27] [SECURITY] [IP:206.189.50.147] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-06 06:17:27] [SECURITY] [IP:206.189.50.147] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-06 06:17:27] [SECURITY] [IP:206.189.50.147] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-06 06:17:27] [SECURITY] [IP:206.189.50.147] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-06 09:47:08] [SECURITY] [IP:177.129.191.12] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-06 09:47:09] [SECURITY] [IP:177.129.191.12] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-06 13:36:42] [SECURITY] [IP:167.172.169.77] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-06 13:36:42] [SECURITY] [IP:167.172.169.77] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-06 13:36:42] [SECURITY] [IP:167.172.169.77] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-06 13:36:42] [SECURITY] [IP:167.172.169.77] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-06 16:55:52] [SECURITY] [IP:177.66.49.85] [POST /index.php] Tentativa de login | Context: {"email":"choppon24@gmail.com"}
+[2026-01-06 16:55:52] [SECURITY] [IP:177.66.49.85] [POST /index.php] Login falhou: Usuário não encontrado | Context: {"email":"choppon24@gmail.com"}
+[2026-01-06 16:56:33] [SECURITY] [IP:177.66.49.85] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-06 16:56:34] [SECURITY] [IP:177.66.49.85] [POST /index.php] Login falhou: Senha incorreta | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-06 16:56:46] [SECURITY] [IP:177.66.49.85] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-06 16:56:46] [SECURITY] [IP:177.66.49.85] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-06 16:56:47] [SECURITY] [IP:177.66.49.85] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-06 16:56:47] [SECURITY] [IP:177.66.49.85] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-06 21:24:48] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-06 21:24:49] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-06 22:07:58] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-06 22:07:58] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login falhou: Senha incorreta | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-06 22:08:02] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-06 22:08:03] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-06 23:19:51] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-06 23:19:51] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-06 23:26:55] [SECURITY] [IP:54.227.172.57] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-06 23:26:55] [SECURITY] [IP:54.227.172.57] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-07 08:42:30] [SECURITY] [IP:213.209.159.150] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-07 08:42:30] [SECURITY] [IP:213.209.159.150] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-07 08:42:31] [SECURITY] [IP:213.209.159.150] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-07 08:42:31] [SECURITY] [IP:213.209.159.150] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-07 08:42:31] [SECURITY] [IP:213.209.159.150] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-07 08:42:31] [SECURITY] [IP:213.209.159.150] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-07 08:42:31] [SECURITY] [IP:213.209.159.150] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-07 08:42:31] [SECURITY] [IP:213.209.159.150] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-07 08:42:32] [SECURITY] [IP:213.209.159.150] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-07 08:42:32] [SECURITY] [IP:213.209.159.150] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-07 08:42:32] [SECURITY] [IP:213.209.159.150] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-07 08:42:32] [SECURITY] [IP:213.209.159.150] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-07 08:42:32] [SECURITY] [IP:213.209.159.150] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-07 08:42:32] [SECURITY] [IP:213.209.159.150] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-07 08:42:33] [SECURITY] [IP:213.209.159.150] [POST /] Tentativa de login | Context: {"email":""}
+[2026-01-07 08:42:33] [SECURITY] [IP:213.209.159.150] [POST /] Login falhou: Usuário não encontrado | Context: {"email":""}
+[2026-01-07 16:49:16] [SECURITY] [IP:177.129.191.12] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-07 16:49:17] [SECURITY] [IP:177.129.191.12] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-07 16:53:37] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2026-01-07 16:53:37] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login falhou: Usuário não encontrado | Context: {"email":"larrisarodrigues7@hotmail.com"}
+[2026-01-07 16:53:46] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-07 16:53:46] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-07 16:54:06] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 16:54:07] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-07 16:57:45] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-07 16:57:45] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-07 16:58:09] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 16:58:10] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-07 16:58:56] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-07 16:58:56] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-07 16:59:08] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 16:59:08] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-07 17:50:19] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 17:50:19] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-07 17:54:43] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 17:54:44] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-07 19:10:58] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 19:10:59] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-07 19:29:51] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-07 19:29:51] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-07 19:30:13] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 19:30:14] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-07 19:35:51] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-07 19:35:51] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-07 20:22:24] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 20:22:25] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-07 21:13:09] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 21:13:09] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-07 21:20:28] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-07 21:20:28] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-08 21:17:24] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-08 21:17:24] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-11 22:50:20] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-11 22:50:21] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-12 00:01:37] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-12 00:01:38] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-12 00:02:00] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"larissarodrigues7@hotmail.com"}
+[2026-01-12 00:02:00] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":2,"email":"larissarodrigues7@hotmail.com","type":2}
+[2026-01-12 00:10:31] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-12 00:10:31] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}
+[2026-01-12 00:16:35] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-12 00:16:35] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login falhou: Senha incorreta | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-12 00:16:39] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-12 00:16:39] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login falhou: Senha incorreta | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-12 00:16:48] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-12 00:16:48] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login falhou: Senha incorreta | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-12 00:16:56] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"asoaresbh@gmail.com"}
+[2026-01-12 00:16:56] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":3,"email":"asoaresbh@gmail.com","type":2}
+[2026-01-12 00:21:28] [SECURITY] [IP:200.229.247.53] [POST /index.php] Tentativa de login | Context: {"email":"choppon24h@gmail.com"}
+[2026-01-12 00:21:28] [SECURITY] [IP:200.229.247.53] [POST /index.php] Login bem-sucedido | Context: {"user_id":1,"email":"choppon24h@gmail.com","type":1}

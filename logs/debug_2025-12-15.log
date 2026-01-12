@@ -1,0 +1,44 @@
+[2025-12-15 10:47:02] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-15 10:47:02] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-15 10:47:02] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-15 14:56:02] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-15 14:56:02] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-15 14:56:02] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-15 20:15:02] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-15 20:15:02] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-15 20:15:02] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-15 20:15:38] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-15 20:15:38] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-15 20:15:38] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------

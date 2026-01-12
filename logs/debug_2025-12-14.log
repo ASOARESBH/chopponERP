@@ -1,0 +1,326 @@
+[2025-12-14 13:19:25] [INFO] [royalty_selecionar_pagamento.php:14] === INÍCIO royalty_selecionar_pagamento.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:25] [INFO] [royalty_selecionar_pagamento.php:21] Royalty ID recebido
+{
+    "royalty_id": 23
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:25] [DEBUG] [royalty_selecionar_pagamento.php:30] Buscando dados do royalty
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:25] [INFO] [royalty_selecionar_pagamento.php:40] Royalty encontrado
+{
+    "id": 23,
+    "estabelecimento_id": 1,
+    "status": "pendente",
+    "valor": "700.00"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:25] [INFO] [royalty_selecionar_pagamento.php:61] Verificando métodos de pagamento disponíveis
+{
+    "estabelecimento_id": 1
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:25] [ERROR] [royalty_selecionar_pagamento.php:94] Erro ao verificar métodos de pagamento
+{
+    "exception": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:25] [PHP_ERROR] [royalty_selecionar_pagamento.php:127] [WARNING] Undefined array key "descricao_cobranca"
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php",
+    "line": 127,
+    "errno": 2
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:25] [INFO] [royalty_selecionar_pagamento.php:231] === FIM royalty_selecionar_pagamento.php (página carregada com sucesso) ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:44] [INFO] [royalty_selecionar_pagamento.php:14] === INÍCIO royalty_selecionar_pagamento.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:44] [INFO] [royalty_selecionar_pagamento.php:21] Royalty ID recebido
+{
+    "royalty_id": 23
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:44] [DEBUG] [royalty_selecionar_pagamento.php:30] Buscando dados do royalty
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:44] [INFO] [royalty_selecionar_pagamento.php:40] Royalty encontrado
+{
+    "id": 23,
+    "estabelecimento_id": 1,
+    "status": "pendente",
+    "valor": "700.00"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:44] [INFO] [royalty_selecionar_pagamento.php:61] Verificando métodos de pagamento disponíveis
+{
+    "estabelecimento_id": 1
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:44] [ERROR] [royalty_selecionar_pagamento.php:94] Erro ao verificar métodos de pagamento
+{
+    "exception": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:44] [PHP_ERROR] [royalty_selecionar_pagamento.php:127] [WARNING] Undefined array key "descricao_cobranca"
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php",
+    "line": 127,
+    "errno": 2
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:44] [INFO] [royalty_selecionar_pagamento.php:231] === FIM royalty_selecionar_pagamento.php (página carregada com sucesso) ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:51] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:51] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 13:19:51] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:20:07] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:20:07] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 13:20:07] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:20:25] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:20:25] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 13:20:25] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:21:52] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:21:52] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 13:21:52] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:22:03] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:22:03] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 13:22:03] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:22:12] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:22:12] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 13:22:12] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:23:27] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:23:27] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 13:23:27] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:15] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:15] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:15] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:27] [INFO] [royalty_selecionar_pagamento.php:14] === INÍCIO royalty_selecionar_pagamento.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:27] [INFO] [royalty_selecionar_pagamento.php:21] Royalty ID recebido
+{
+    "royalty_id": 23
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:27] [DEBUG] [royalty_selecionar_pagamento.php:30] Buscando dados do royalty
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:27] [INFO] [royalty_selecionar_pagamento.php:40] Royalty encontrado
+{
+    "id": 23,
+    "estabelecimento_id": 1,
+    "status": "pendente",
+    "valor": "700.00"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:27] [INFO] [royalty_selecionar_pagamento.php:61] Verificando métodos de pagamento disponíveis
+{
+    "estabelecimento_id": 1
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:27] [ERROR] [royalty_selecionar_pagamento.php:94] Erro ao verificar métodos de pagamento
+{
+    "exception": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:27] [PHP_ERROR] [royalty_selecionar_pagamento.php:127] [WARNING] Undefined array key "descricao_cobranca"
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php",
+    "line": 127,
+    "errno": 2
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:24:27] [INFO] [royalty_selecionar_pagamento.php:231] === FIM royalty_selecionar_pagamento.php (página carregada com sucesso) ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:36] [INFO] [royalty_selecionar_pagamento.php:14] === INÍCIO royalty_selecionar_pagamento.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:36] [INFO] [royalty_selecionar_pagamento.php:21] Royalty ID recebido
+{
+    "royalty_id": 23
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:36] [DEBUG] [royalty_selecionar_pagamento.php:30] Buscando dados do royalty
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:36] [INFO] [royalty_selecionar_pagamento.php:40] Royalty encontrado
+{
+    "id": 23,
+    "estabelecimento_id": 1,
+    "status": "pendente",
+    "valor": "700.00"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:36] [INFO] [royalty_selecionar_pagamento.php:61] Verificando métodos de pagamento disponíveis
+{
+    "estabelecimento_id": 1
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:36] [ERROR] [royalty_selecionar_pagamento.php:94] Erro ao verificar métodos de pagamento
+{
+    "exception": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:36] [PHP_ERROR] [royalty_selecionar_pagamento.php:127] [WARNING] Undefined array key "descricao_cobranca"
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php",
+    "line": 127,
+    "errno": 2
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:36] [INFO] [royalty_selecionar_pagamento.php:231] === FIM royalty_selecionar_pagamento.php (página carregada com sucesso) ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:46] [INFO] [royalty_selecionar_pagamento.php:14] === INÍCIO royalty_selecionar_pagamento.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:46] [INFO] [royalty_selecionar_pagamento.php:21] Royalty ID recebido
+{
+    "royalty_id": 23
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:46] [DEBUG] [royalty_selecionar_pagamento.php:30] Buscando dados do royalty
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:46] [INFO] [royalty_selecionar_pagamento.php:40] Royalty encontrado
+{
+    "id": 23,
+    "estabelecimento_id": 1,
+    "status": "pendente",
+    "valor": "700.00"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:46] [INFO] [royalty_selecionar_pagamento.php:61] Verificando métodos de pagamento disponíveis
+{
+    "estabelecimento_id": 1
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:46] [ERROR] [royalty_selecionar_pagamento.php:94] Erro ao verificar métodos de pagamento
+{
+    "exception": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:46] [PHP_ERROR] [royalty_selecionar_pagamento.php:127] [WARNING] Undefined array key "descricao_cobranca"
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php",
+    "line": 127,
+    "errno": 2
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:51:46] [INFO] [royalty_selecionar_pagamento.php:231] === FIM royalty_selecionar_pagamento.php (página carregada com sucesso) ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:52:42] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:52:42] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 13:52:42] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:56:47] [INFO] [royalty_selecionar_pagamento.php:14] === INÍCIO royalty_selecionar_pagamento.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 13:56:47] [INFO] [royalty_selecionar_pagamento.php:21] Royalty ID recebido
+{
+    "royalty_id": 23
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:56:47] [DEBUG] [royalty_selecionar_pagamento.php:30] Buscando dados do royalty
+--------------------------------------------------------------------------------
+[2025-12-14 13:56:47] [INFO] [royalty_selecionar_pagamento.php:40] Royalty encontrado
+{
+    "id": 23,
+    "estabelecimento_id": 1,
+    "status": "pendente",
+    "valor": "700.00"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:56:47] [INFO] [royalty_selecionar_pagamento.php:61] Verificando métodos de pagamento disponíveis
+{
+    "estabelecimento_id": 1
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:56:47] [ERROR] [royalty_selecionar_pagamento.php:94] Erro ao verificar métodos de pagamento
+{
+    "exception": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'"
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:56:47] [PHP_ERROR] [royalty_selecionar_pagamento.php:127] [WARNING] Undefined array key "descricao_cobranca"
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php",
+    "line": 127,
+    "errno": 2
+}
+--------------------------------------------------------------------------------
+[2025-12-14 13:56:47] [INFO] [royalty_selecionar_pagamento.php:231] === FIM royalty_selecionar_pagamento.php (página carregada com sucesso) ===
+--------------------------------------------------------------------------------
+[2025-12-14 14:37:41] [INFO] [mercadopago_config.php:9] === INÍCIO mercadopago_config.php ===
+--------------------------------------------------------------------------------
+[2025-12-14 14:37:41] [DEBUG] [mercadopago_config.php:114] Listando estabelecimentos
+--------------------------------------------------------------------------------
+[2025-12-14 14:37:41] [EXCEPTION] [unknown:?] Call to undefined method PDOStatement::fetch_assoc()
+{
+    "file": "/home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php",
+    "line": 123,
+    "trace": "#0 {main}"
+}
+--------------------------------------------------------------------------------

@@ -1,0 +1,79 @@
+# ========================================
+# LOG DO WEBHOOK MERCADO PAGO
+# Este arquivo será preenchido automaticamente quando o webhook for chamado
+# ========================================
+
+# IMPORTANTE:
+# - Este log está vazio porque o webhook ainda não foi configurado no painel do Mercado Pago
+# - Após configurar o webhook, este arquivo será preenchido automaticamente
+# - Cada notificação recebida será registrada aqui
+
+# EXEMPLO DE LOG (quando webhook for recebido):
+# 
+# [2024-12-18 10:30:00] Webhook recebido
+# {
+#     "headers": {
+#         "Content-Type": "application/json",
+#         "User-Agent": "MercadoPago"
+#     },
+#     "body": {
+#         "type": "payment",
+#         "action": "payment.updated",
+#         "data": {
+#             "id": "138410358310"
+#         }
+#     },
+#     "ip": "209.225.49.25"
+# }
+# ---
+# [2024-12-18 10:30:01] Tipo de notificação: payment, Ação: payment.updated
+# ---
+# [2024-12-18 10:30:01] Payment ID: 138410358310
+# ---
+# [2024-12-18 10:30:02] Detalhes do pagamento obtidos
+# {
+#     "id": 138410358310,
+#     "status": "approved",
+#     "external_reference": "royalty_123",
+#     "transaction_amount": 1140.00,
+#     "payer": {
+#         "email": "cliente@example.com"
+#     }
+# }
+# ---
+# [2024-12-18 10:30:02] Status: approved, External Reference: royalty_123, Amount: 1140
+# ---
+# [2024-12-18 10:30:02] Royalty ID encontrado: 123
+# ---
+# [2024-12-18 10:30:03] Royalty 123 atualizado para status: pago
+# ---
+# [2024-12-18 10:30:03] Log de pagamento registrado para royalty 123
+# ---
+
+# COMO VERIFICAR SE WEBHOOK ESTÁ FUNCIONANDO:
+# 
+# 1. Configurar webhook no painel do Mercado Pago
+# 2. Fazer um pagamento de teste
+# 3. Verificar este arquivo:
+#    tail -f /var/www/html/CHOPPONv1/logs/mercadopago_webhook.log
+# 4. Deve aparecer logs como o exemplo acima
+
+# TROUBLESHOOTING:
+# 
+# Se este arquivo continuar vazio após fazer pagamento:
+# - Webhook não está configurado no painel
+# - URL do webhook está incorreta
+# - Firewall está bloqueando
+# - Arquivo webhook.php tem erro de sintaxe
+
+# CONFIGURAR WEBHOOK:
+# 
+# 1. Acesse: https://www.mercadopago.com.br/developers/panel
+# 2. Vá em "Webhooks"
+# 3. Adicione URL: https://ochoppoficial.com.br/webhooks/mercadopago_webhook.php
+# 4. Selecione eventos: payment.created, payment.updated
+# 5. Salvar
+
+# ========================================
+# FIM DO ARQUIVO DE EXEMPLO
+# ========================================

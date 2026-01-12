@@ -1,0 +1,8 @@
+[14-Dec-2025 13:19:25 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao_cobranca" in /home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php on line 127
+[14-Dec-2025 13:19:44 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao_cobranca" in /home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php on line 127
+[14-Dec-2025 13:24:27 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao_cobranca" in /home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php on line 127
+[14-Dec-2025 13:51:36 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao_cobranca" in /home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php on line 127
+[14-Dec-2025 13:51:46 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao_cobranca" in /home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php on line 127
+[14-Dec-2025 13:56:47 America/Sao_Paulo] PHP Warning:  Undefined array key "descricao_cobranca" in /home2/inlaud99/ochoppoficial.com.br/admin/royalty_selecionar_pagamento.php on line 127
+[17-Dec-2025 21:45:08 America/Sao_Paulo] PHP Warning:  Undefined variable $estabelecimentos in /home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php on line 217
+[17-Dec-2025 21:45:08 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/inlaud99/ochoppoficial.com.br/admin/mercadopago_config.php on line 217
