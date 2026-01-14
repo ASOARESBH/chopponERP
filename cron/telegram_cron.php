@@ -1,39 +1,7 @@
 <?php
 /**
- * ========================================
- * TELEGRAM CRON - Notificações Automáticas
- * ========================================
- * 
- * Script para execução via CRON (cron-job.org ou Hostgator)
- * Envia notificações automáticas via Telegram
- * 
- * @author ChopponERP Team
- * @version 2.0.0
- * @date 2026-01-12
- * 
- * CONFIGURAÇÃO CRON (Hostgator):
- * ================================
- * Painel cPanel → Cron Jobs
- * 
- * Comando:
- * /usr/local/bin/php /home/seu_usuario/public_html/cron/telegram_cron.php
- * 
- * Frequência Recomendada:
- * - Estoque: A cada 6 horas (0 */6 * * *)
- * - Contas: Diariamente às 8h (0 8 * * *)
- * - Promoções: Diariamente às 9h (0 9 * * *)
- * - Completo: Diariamente às 8h (0 8 * * *)
- * 
- * CONFIGURAÇÃO CRON (cron-job.org):
- * ==================================
- * URL: https://seu-dominio.com/cron/telegram_cron.php?key=SUA_CHAVE_SECRETA
- * Frequência: Diariamente às 08:00
- * 
- * SEGURANÇA:
- * ==========
- * - Defina TELEGRAM_CRON_KEY no config.php
- * - Acesse via: telegram_cron.php?key=SUA_CHAVE
- * - Sem chave válida = acesso negado
+ * TELEGRAM CRON - Notificacoes Automaticas
+ * Script para execucao via CRON
  */
 
 // Definir timezone
@@ -42,9 +10,34 @@ date_default_timezone_set('America/Sao_Paulo');
 // Caminho base do projeto
 $base_path = dirname(__DIR__);
 
-// Incluir arquivos necessários
+// Incluir arquivos necessarios
 require_once $base_path . '/includes/config.php';
 require_once $base_path . '/includes/TelegramNotifier.php';
+
+// Validacao de Seguranca
+function validarAcesso() {
+    if (php_sapi_name() === 'cli') return true;
+    
+    if (!defined('TELEGRAM_CRON_KEY') || empty(TELEGRAM_CRON_KEY)) {
+        die(json_encode(['success' => false, 'error' => 'Chave nao configurada']));
+    }
+    
+    $chaveRecebida = $_GET['key'] ?? '';
+    if ($chaveRecebida !== TELEGRAM_CRON_KEY) {
+        http_response_code(401);
+        die(json_encode(['success' => false, 'error' => 'Chave invalida']));
+    }
+    return true;
+}
+
+validarAcesso();
+// Caminho base do projeto
+$base_path = dirname(__DIR__);
+
+// Incluir arquivos necessários
+// Caminho absoluto baseado no diretório do script atual
+require_once __DIR__ . '/../includes/config.php';
+require_once __DIR__ . '/../includes/TelegramNotifier.php';
 
 // ========================================
 // VALIDAÇÃO DE SEGURANÇA
